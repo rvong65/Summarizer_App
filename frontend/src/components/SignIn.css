@@ -1,0 +1,24 @@
+.loginButton{
+    background: linear-gradient(89deg, #4568dc 0%, #b06ab3 100%);
+    color: white;
+    border-color: transparent;
+}
+
+.inputBox {
+    display: flexbox;
+    display: flex;
+    box-sizing: border-box;
+    border-bottom: 2px solid black;
+
+}
+
+.inputField{
+    border: none;
+    outline: none;
+}
+
+.loginComponent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
