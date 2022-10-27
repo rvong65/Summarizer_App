@@ -3,7 +3,7 @@ This is a machine-learning based web application that was built with Django, Rea
 ## Login Page
 ![image](https://user-images.githubusercontent.com/87782709/195907133-0d945736-61a1-48a2-a567-8c2bbc4e3200.png)
 ## Main Interface Page
-![image](https://user-images.githubusercontent.com/87782709/195908103-a3316ef0-e8d6-4080-aba2-6097c79c8960.png)
+![image](https://user-images.githubusercontent.com/87782709/198351351-bd8e98ea-9e62-4909-a763-743fe1d0c988.png)
 ## Setup
 ### Backend
 1. Run `pip install -r requirements.txt`
