@@ -10,9 +10,8 @@ from django.contrib.auth.models import User
 #Load summarization model
 summarizer = pipeline("summarization", model="t5-base", tokenizer="t5-base", framework="tf")
 
+#Send model's response
 class SendTextInputView(APIView):
-
-    #Send model's response
     def post(self, request, format=None):
         if not self.request.session.exists(self.request.session.session_key):
             self.request.session.create()
