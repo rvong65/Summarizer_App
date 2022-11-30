@@ -25,11 +25,12 @@ class App extends Component {
 
     this.submitTextInput = this.submitTextInput.bind(this);
   }
-
+  // Get current user
   getUser = (data) => {
     this.setState({username: data.username});
   }
-
+  
+  // Change route
   onChangeRoute = (route) =>{
     if(route === "signOut"){
       this.setState({isSignedIn: false, route: "signIn", text_output: ""});
@@ -38,11 +39,13 @@ class App extends Component {
     }else{
     this.setState({route: route})}
   }
-
+  
+  // Set text input to event's target value
   textInputOnChange = (event) => {
     this.setState({text_input: event.target.value})
   }
-
+  
+  //Send text input to the model 
   submitTextInput = async(event) => {
     if(this.state.text_output !== ''){
       this.setState({text_output: ''});
