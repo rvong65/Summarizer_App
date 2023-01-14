@@ -1,5 +1,5 @@
 # 📝 Summarizer App
-This is a machine-learning based web application that was built with Django, React, and the transformers library. To use the app, the user first starts with signing up for an account by creating a username and password. The user then gets logged into the main interface and is able to interact with the summarizer by inputting any articles. A text box will then show the summarized article. 
+This is a machine-learning based web application that was built with Django, React, and Hugging Face's transformers library. To use the app, the user first starts with signing up for an account by creating a username and password. The user then gets logged into the main interface and is able to interact with the summarizer by inputting any articles. A text box will then show the summarized article. 
 ## Demonstration
 
 
